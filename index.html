@@ -1,113 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="style.css"> 
+  <title>FAC project website</title>
 </head>
+ 
 <body>
-    <h1>hello world!</h1> <br>
-    <br>
-    Tech has been a passion of mine since I was a child. I have more recently enjoyed attending the following tech conferences and gatherings:
+    <h1><center>Hello World!</center></h1> 
+    <br><br>
     
-    <ul>
-        <li><a href="https://barncamp.org.uk">Barn Camp</a></li>
-        <li><a href="https://www.emfcamp.org">ElectroMagnetic Field (EMF) camp </a></li>
-        <li><a href="https://fosdem.org">FOSDEM</a></li>
-        <li><a href="https://freenode.live/">FreenodeLive, Bristol</a></li>
-        <li><a href="https://www.mozillafestival.org">MozFest</a></li>
-    </ul>
-	
-    I am applying for the Founders and Coders (FAC) programme because it is time I transform my long-term hobby of tech into a future-proof career path! <br>
-    Furthermore, I am an avid user of FOSS and I feel that it is time I gave back to the FOSS community.. in code.
+    <!-- TAB1: about-->
+    <div class="tabs">
+    <input type="radio" name="tabs" id="tab1" checked="checked">
+    <label for="tab1">About</label>
+    <div class="tab">
+        <p>Welcome!</p>
+        <p>This website is being built to fulfil <a href="https://www.foundersandcoders.com/requirements/website">these</a> requirements in order to apply for the Founders and Coders programme</p>
+        <p>The source code for this website is hosted from <a href="https://github.com/yusuf3a50/website/blob/main/index.html">my github repository here</a></p>
+        <p><a href="https://www.freecodecamp.org/yusuf3a50">This</a> is my freecodecamp profile</p>
+        
+        </div>
+    
+    <!-- TAB2: Why FAC?-->
+    <input type="radio" name="tabs" id="tab2">
+    <label for="tab2">Why FAC?</label>
+    <div class="tab">
+        <h1>Why am I applying for the Founders and Coders (FAC) programme?</h1>
+        <p>I am applying for the Founders and Coders (FAC) programme because it is time I transform my long-term hobby of tech into a future-proof career path.</p>
+        <p>Furthermore, I am an avid user of FOSS and I feel that it is time I gave back to the FOSS community.. in code!</p>
+        <p>Tech has been a passion of mine since I was a child. I have more recently enjoyed attending the following tech conferences and gatherings:</p>
+        <ul>
+            <li><a href="https://barncamp.org.uk">Barn Camp</a></li>
+            <li><a href="https://www.emfcamp.org">ElectroMagnetic Field (EMF) camp </a></li>
+            <li><a href="https://fosdem.org">FOSDEM</a></li>
+            <li><a href="https://freenode.live/">FreenodeLive, Bristol</a></li>
+            <li><a href="https://www.mozillafestival.org">MozFest</a></li>
+        </ul>
+        <br><br>
+            
+        
+    </div>
 
-    <br><br><br>
-    
-    The source code for this website is hosted from <a href="https://github.com/yusuf3a50/website/blob/main/index.html">my github repository here</a> <br>
-    <a href="https://www.freecodecamp.org/yusuf3a50">This</a> is my freecodecamp profile
-    
-    <br><br><br>
-
-    <h3>Progress through the 
+    <!-- TAB3: Course progress + CSS table-->
+    <input type="radio" name="tabs" id="tab3">
+    <label for="tab3">Course progress</label>
+    <div class="tab">
+        <h1>Progress through the 
             <a href="https://www.foundersandcoders.com/requirements/prompts">
-             weekly prompts:
-            </a>     
-        </h3><br>
-    
-    <table>
-    <thead>
-    <tr>
-    <th style="text-align:center">Week</th>
-    <th style="text-align:center">Topic</th>
-    <th style="text-align:center">Progress</th>
-    <th style="text-align:center">Github repo</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-    <td style="text-align:center">1</td>
-    <td style="text-align:center"><a href="https://learn.foundersandcoders.com/course/application/functions/">Functions</a></td>
-    <th style="text-align:center">Progress</th>
-    <th style="text-align:center">Not yet created!</th>
-    </tr>
-    <tr>
-    <td style="text-align:center">2</td>
-    <td style="text-align:center"><a href="https://learn.foundersandcoders.com/course/application/number-functions/">Number functions</a></td>
-    <td style="text-align:center">Incomplete</td>
-    <th style="text-align:center">Not yet created!</th>
-    </tr>
-    <tr>
-    <td style="text-align:center">3</td>
-    <td style="text-align:center"><a href="https://learn.foundersandcoders.com/course/application/dom/">DOM</a></td>
-    <td style="text-align:center">Incomplete</td>
-    <th style="text-align:center">Not yet created!</th>
-    </tr>
-    <tr>
-    <td style="text-align:center">4</td>
-    <td style="text-align:center"><a href="https://learn.foundersandcoders.com/course/application/array-methods/">Array Methods</a></td>
-    <td style="text-align:center">Incomplete</td>
-    <th style="text-align:center">Not yet created!</th>
-    </tr>
-    <tr>
-    <td style="text-align:center">5</td>
-    <td style="text-align:center"><a href="https://learn.foundersandcoders.com/course/application/git/">git and GitHub</a></td>
-    <td style="text-align:center">This should be fun</td>
-    <th style="text-align:center">Not yet created!</th>
-    </tr>
-    <tr>
-    <td style="text-align:center">6</td>
-    <td style="text-align:center"><a href="https://learn.foundersandcoders.com/course/application/flexbox/">FlexBox</a></td>
-    <td style="text-align:center">I did this on freecodecamp.org</td>
-    <th style="text-align:center">Not yet created!</th>
-    </tr>
-    <tr>
-    <td style="text-align:center">7</td>
-    <td style="text-align:center"><a href="https://learn.foundersandcoders.com/course/application/building-a-site/">Building your website</a></td>
-    <td style="text-align:center">Can't wait for this one!</td>
-    <th style="text-align:center">Not yet created!</th>
-    </tr>
-    <tr>
-    <td style="text-align:center">8</td>
-    <td style="text-align:center"><a href="https://learn.foundersandcoders.com/course/application/objects/">Objects</a></td>
-    <td style="text-align:center">Looking forward to this one!</td>
-    <th style="text-align:center">Not yet created!</th>
-    </tr>
-    <tr>
-    <td style="text-align:center">9</td>
-    <td style="text-align:center"><a href="https://learn.foundersandcoders.com/course/application/feature/">Build a feature</a></td>
-    <td style="text-align:center">Whats this?</td>
-    <th style="text-align:center">Not yet created!</th>
-    </tr>
-    <tr>
-    <td style="text-align:center">10</td>
-    <td style="text-align:center"><a href="https://learn.foundersandcoders.com/course/application/debugging/">Debugging your website</a></td>
-    <td style="text-align:center">Debugging is the story of my life! lol</td>
-    <th style="text-align:center">Not yet created!</th>
-    </tr>
-    </tbody>
-    </table>
-
-
+            weekly prompts:
+            </a></h1>
+            <h3>Progress through the 
+                <a href="https://www.foundersandcoders.com/requirements/prompts">
+                weekly prompts:
+                </a>     
+            </h3><br>
+        <table>
+            <thead>
+                <tr>
+                    <th style="text-align:center">Week</th>
+                    <th style="text-align:center">Topic</th>
+                    <th style="text-align:center">Progress</th>
+                    <th style="text-align:center">Github repo</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td style="text-align:center">1</td>
+                    <td style="text-align:center"><a href="https://learn.foundersandcoders.com/course/application/functions/">Functions</a></td>
+                    <td style="text-align:center">Incomplete</td>
+                    <td style="text-align:center">Not yet created!</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center">2</td>
+                    <td style="text-align:center"><a href="https://learn.foundersandcoders.com/course/application/number-functions/">Number functions</a></td>
+                    <td style="text-align:center">Incomplete</td>
+                    <td style="text-align:center">Not yet created!</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center">3</td>
+                    <td style="text-align:center"><a href="https://learn.foundersandcoders.com/course/application/dom/">DOM</a></td>
+                    <td style="text-align:center">Incomplete</td>
+                    <td style="text-align:center">Not yet created!</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center">4</td>
+                    <td style="text-align:center"><a href="https://learn.foundersandcoders.com/course/application/array-metdods/">Array Metdods</a></td>
+                    <td style="text-align:center">Incomplete</td>
+                    <td style="text-align:center">Not yet created!</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center">5</td>
+                    <td style="text-align:center"><a href="https://learn.foundersandcoders.com/course/application/git/">git and Gitdub</a></td>
+                    <td style="text-align:center">this should be fun</td>
+                    <td style="text-align:center">Not yet created!</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center">6</td>
+                    <td style="text-align:center"><a href="https://learn.foundersandcoders.com/course/application/flexbox/">FlexBox</a></td>
+                    <td style="text-align:center">I did this on freecodecamp.org</td>
+                    <td style="text-align:center">Not yet created!</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center">7</td>
+                    <td style="text-align:center"><a href="https://learn.foundersandcoders.com/course/application/building-a-site/">Building your website</a></td>
+                    <td style="text-align:center">Can't wait for this one!</td>
+                    <td style="text-align:center">Not yet created!</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center">8</td>
+                    <td style="text-align:center"><a href="https://learn.foundersandcoders.com/course/application/objects/">Objects</a></td>
+                    <td style="text-align:center">Looking forward to this one!</td>
+                    <td style="text-align:center">Not yet created!</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center">9</td>
+                    <td style="text-align:center"><a href="https://learn.foundersandcoders.com/course/application/feature/">Build a feature</a></td>
+                    <td style="text-align:center">Whats this?</td>
+                    <td style="text-align:center">Not yet created!</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center">10</td>
+                    <td style="text-align:center"><a href="https://learn.foundersandcoders.com/course/application/debugging/">Debugging your website</a></td>
+                    <td style="text-align:center">Debugging is the story of my life! lol</td>
+                    <td style="text-align:center">Not yet created!</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+    </div>
+    </div>
+ 
 </body>
 </html>
