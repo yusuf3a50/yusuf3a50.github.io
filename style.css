@@ -60,3 +60,7 @@ body {
   margin: 0 auto;
   font-size: 112%;
 }
+
+.center {
+  text-align: center;
+}

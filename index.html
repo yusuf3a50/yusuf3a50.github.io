@@ -7,21 +7,15 @@
 </head>
 
 <body>
-    <h1><center>Hello World!</center></h1> 
+    <h1 class=center>Hello World!</h1> 
     <br><br>
     
-    <!-- Event listener button script-->
+    <!-- Event listener button + script-->
     <p>
         <button class="button">Click me and then check your console log!</button>
     </p>
 
-    <script>
-      function buttonFunction() {
-          console.log("hi")
-      }
-      let clickMeButton = document.querySelector(".button");
-      clickMeButton.addEventListener("click", buttonFunction);
-    </script>
+    <script type="text/javascript" src="listenerButton.js"></script>
 
     <!-- TAB1: about-->
     <div class="tabs">
@@ -57,9 +51,9 @@
         
     </div>
 
-    <!-- TAB3: Course progress + CSS table-->
+    <!-- TAB3: Prompts progress + CSS table-->
     <input type="radio" name="tabs" id="tab3">
-    <label for="tab3">Course progress</label>
+    <label for="tab3">Prompts progress</label>
     <div class="tab">
             <h3>Progress through the 
                 <a href="https://www.foundersandcoders.com/requirements/prompts">
