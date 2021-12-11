@@ -20,7 +20,7 @@
   width: 100%;
   display: none;
   padding: 1rem;
-  background: #fff;
+  background: rgb(195, 0, 255);
 }
  
 .tabs input[type="radio"] {
@@ -28,7 +28,7 @@
 }
  
 .tabs input[type="radio"]:checked + label {
-  background: #fff;
+  background: rgb(195, 0, 255);
 }
  
 .tabs input[type="radio"]:checked + label + .tab {
@@ -49,7 +49,7 @@
 }
  
 body {
-  background: rgb(77, 0, 80);
+  background: rgb(255, 255, 255);
   min-height: 100vh;
   box-sizing: border-box;
   padding-top: 10vh;
@@ -63,4 +63,9 @@ body {
 
 .center {
   text-align: center;
+}
+
+.dark-mode {
+  background-color: black;
+  color: rgb(75, 75, 75);
 }
