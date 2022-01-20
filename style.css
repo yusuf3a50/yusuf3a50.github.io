@@ -75,3 +75,34 @@ body {
   height: 0px;
   position: relative;
 }
+
+.darkModeButton {
+  background: black;
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  position: absolute;
+  right: -10px;
+  top: 0;
+}
+
+.funButton {
+  background: purple;
+  color: white;
+  position:absolute;
+  right: -10px;
+  bottom: 0;
+}
+
+.answer {
+  font-weight: bold;
+  font-size: 1000%;
+  position:absolute;
+  right: -10px;
+  bottom:-400px;
+}
