@@ -1,3 +1,15 @@
+body {
+  background: rgb(255, 255, 255);
+  min-height: 100vh;
+  box-sizing: border-box;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+  max-width: 60rem;
+  margin: 0 auto;
+  font-size: 112%;
+}
+
 .tabs {
   display: flex;
   flex-wrap: wrap;
@@ -48,25 +60,12 @@
   }
 }
  
-body {
-  background: rgb(255, 255, 255);
-  min-height: 100vh;
-  box-sizing: border-box;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 300;
-  line-height: 1.5;
-  max-width: 60rem;
-  margin: 0 auto;
-  font-size: 112%;
+a:hover {
+  color: red;
 }
 
 .center {
   text-align: center;
-}
-
-.dark-mode {
-  background-color: black;
-  color: rgb(75, 75, 75);
 }
 
 .right {
@@ -91,7 +90,12 @@ body {
   top: 0;
 }
 
-.funButton {
+.dark-mode {
+  background-color: black;
+  color: rgb(75, 75, 75);
+}
+
+.questionButton {
   background: purple;
   color: white;
   position:absolute;
