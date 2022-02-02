@@ -59,11 +59,15 @@ body {
     margin-top: 0.2rem;
   }
 }
- 
+
+ /* Have the anchor tags turn red when you hover the cursor over them */
 a:hover {
   color: red;
 }
 
+ /* Any text which needs to be centred on the page, 
+ it is better practice to use this CSS class than use 
+ a center tag in the HTML document */
 .center {
   text-align: center;
 }
@@ -75,6 +79,7 @@ a:hover {
   position: relative;
 }
 
+ /* Styling of the darkMode button at the top of the page*/
 .darkModeButton {
   background: black;
   color: white;
@@ -90,11 +95,14 @@ a:hover {
   top: 0;
 }
 
+ /* When you hit the darkMode button, 
+ the following styles are applied to the html document */
 .dark-mode {
   background-color: black;
   color: rgb(75, 75, 75);
 }
 
+ /* Styling of the question button at the bottom of the page */
 .questionButton {
   background: purple;
   color: white;
@@ -103,6 +111,8 @@ a:hover {
   bottom: 0;
 }
 
+ /* Styling for the giant "42" text 
+ which is displayed below the questionButton after it is clicked */
 .answer {
   font-weight: bold;
   font-size: 1000%;
