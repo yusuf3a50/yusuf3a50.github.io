@@ -15,17 +15,20 @@ body {
   flex-wrap: wrap;
 }
  
+/* the selectable tab labels */
 .tabs label {
   order: 1;
   display: block;
   padding: 1rem 2rem;
   margin-right: 0.2rem;
   cursor: pointer;
-  background:  rgb(0, 255, 42);
+  background:  orange;
   font-weight: bold;
   transition: background ease 0.2s;
+  box-shadow: 10px 5px 5px grey;
 }
  
+/* main box */
 .tabs .tab {
   order: 99;
   flex-grow: 1;
@@ -33,6 +36,7 @@ body {
   display: none;
   padding: 1rem;
   background: rgb(195, 0, 255);
+  box-shadow: 10px 5px 5px grey;
 }
  
 .tabs input[type="radio"] {
@@ -46,7 +50,8 @@ body {
 .tabs input[type="radio"]:checked + label + .tab {
   display: block;
 }
- 
+
+/* adjust CSS styling depending on device screen size */
 @media (max-width: 45em) {
   .tabs .tab,
   .tabs label {
@@ -60,13 +65,13 @@ body {
   }
 }
 
- /* Have the anchor tags turn red when you hover the cursor over them */
+ /* Anchor tags turn red when you hover the cursor over them */
 a:hover {
   color: red;
 }
 
- /* Any text which needs to be centred on the page, 
- it is better practice to use this CSS class than use 
+ /* Any text which needs to be centred on the page. 
+ It is better practice to use this CSS class than use 
  a center tag in the HTML document */
 .center {
   text-align: center;
@@ -83,16 +88,24 @@ a:hover {
 .darkModeButton {
   background: black;
   color: white;
-  border: none;
+  border: 1px solid grey;
   padding-top: 10px;
   padding-bottom: 10px;
   font-weight: bold;
   width: 200px;
   margin-bottom: 5px;
-  border-radius: 5px;
+  border-radius: 5px; /* rounded corners */
   position: absolute;
-  right: -10px;
+  right: 0px;
   top: 0;
+  box-shadow: 10px 5px 5px grey;
+}
+
+/* when you hover over the darkMode button, colors change*/
+.darkModeButton:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 10px 5px 5px red;
 }
 
  /* When you hit the darkMode button, 
@@ -109,6 +122,16 @@ a:hover {
   position:absolute;
   right: -10px;
   bottom: 0;
+  border-radius: 5px; /* rounded corners */
+  border: 2px solid rgb(195, 0, 255);
+  box-shadow: 10px 5px 5px grey;
+}
+
+/* when you hover over the question button, colors change*/
+.questionButton:hover {
+  background-color: white;
+  color: purple;
+  box-shadow: 10px 5px 5px red;
 }
 
  /* Styling for the giant "42" text 
