@@ -106,6 +106,7 @@ a:hover {
   background-color: white;
   color: black;
   box-shadow: 10px 5px 5px red;
+  transform: scale(1.1);
 }
 
  /* When you hit the darkMode button, 
@@ -132,6 +133,7 @@ a:hover {
   background-color: white;
   color: purple;
   box-shadow: 10px 5px 5px red;
+  transform: scale(1.1);
 }
 
  /* Styling for the giant "42" text 
