@@ -116,6 +116,13 @@ a:hover {
   color: rgb(75, 75, 75);
 }
 
+.website_counter{
+  position:absolute;
+  align: center;
+  /* right: -10px; */
+  bottom: 0;
+}
+
  /* Styling of the question button at the bottom of the page */
 .questionButton {
   background: purple;
