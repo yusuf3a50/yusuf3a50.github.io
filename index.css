@@ -30,7 +30,7 @@ body {
  
 /* main box */
 .tabs .tab {
-  order: 99;
+  order: 99; /* this might be causing hierarchy issues when adding new content */
   flex-grow: 1;
   width: 100%;
   display: none;
@@ -114,13 +114,6 @@ a:hover {
 .dark-mode {
   background-color: black;
   color: rgb(75, 75, 75);
-}
-
-.website_counter{
-  position:absolute;
-  align: center;
-  /* right: -10px; */
-  bottom: 0;
 }
 
  /* Styling of the question button at the bottom of the page */
